@@ -1,0 +1,23 @@
+#Assume a png is called qq.png
+
+On a Linux PC
+
+```
+convert qq.png -resize 125x125! qq_125.png
+python3 png_converter.py  qq_125.png  qq_125_map
+```
+Converting qq_125.png...
+Image size: 125x125
+Generated 31250 bytes (15625 pixels)
+Saved to qq_125_map_data.py
+Dimensions: 125x125
+Data size: 31250 bytes
+
+Conversion successful!
+
+Use: from qq_125_map_data import qq_125_map_data, qq_125_map_width, qq_125_map_height
+
+NOTE: An issue is that ImageMagick's -resize 125x125 preserves aspect ratio by default.
+To force an exact square size with ImageMagick, use an !.
+If you don't mind some distortion, or the crop version if you want to keep the image looking natural but perfectly square!
+
