@@ -5,8 +5,7 @@
 
 More to come but for now follow steps.md to load a small png to the RP2350 device.
 
-I have loaded a  225 x 220 ping with crashing the device with a memory shortage. 
-
+I have loaded a  225 x 220 ping without crashing the device with a memory shortage. 
 
 https://www.waveshare.com/wiki/RP2350-Touch-LCD-2.8
 
